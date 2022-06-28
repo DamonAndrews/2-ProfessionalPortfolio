@@ -1,0 +1,88 @@
+body{
+    background-image: url(mma.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial Narrow', Arial, sans-serif
+   
+}
+
+header{
+    display:flex;
+    background-size:100%;
+    justify-content:space-between; 
+    
+}
+
+.links li {
+    display:inline-block;
+    margin-left: 15px; 
+  }
+
+.links a:hover {
+    font-weight: bolder;
+    color:aqua;  
+}
+
+.links a:active {
+    font-weight: bolder;
+    color: red
+}
+
+
+header h1 {
+    display:inline-block;
+    /* float: left; */
+    color:rgb(78, 137, 177);
+}
+
+
+.bannerimage {
+    background-color:rgb(241, 70, 70);
+    width:100%;
+    text-align: center;
+}
+
+.page-center {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h2{
+    color: rgb(78, 137, 177);
+}
+
+
+.linkphoto {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius:25%;
+}
+
+.linkphoto1 {
+    height: 65px;
+    width: 65px;
+    object-fit:contain;
+    border-radius:25%;
+}
+
+p{
+    font-style: italic;
+}
+
+a{
+    color:rgb(241, 70, 70);
+    font-weight: bold;
+}
+
+.pagebottom {
+    display:flex;
+    align-items:flex-end;
+    height: 100px;
+    color: white;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 261px;
+}
