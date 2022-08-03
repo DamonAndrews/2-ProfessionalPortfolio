@@ -14,53 +14,51 @@
 <!-- OPEN body -->
 <body>
 
+  
 <!-- Name and links header -->
-  <header class="pagetop">
+<div class="pagetop">
+<header>
 
-      <div class="name-top"> 
-        <img src="./Pyramid.jpg" alt="Pyramid" class="linkphoto1">
-      </div>
-
-      <div class="fullname">
-        <h1>Damon Andrews</h1>
-      </div>
-
+        <img src="./Pyramid.jpg" alt="Pyramid" class="pyramidpic">
+    
+        <h1>Damon Lee Andrews</h1>
+    
       <nav>
         <ul class="links">
-          <li><a href="#aboutme">Who's Damon?</a></li>
-          <li><a href= "#mywork">Projects</a></li>
-          <li><a href= "#contact">Let's Connect</a></li>
+          <li id="aboutmetop"><a href="#aboutme">Who's Damon?</a></li>
+          <li id="myworktop"><a href= "#mywork">Projects</a></li>
+          <li id="contacttop"><a href= "#contact">Let's Connect</a></li>
         </ul>
       </nav>
 
-  </header>
+</header>
+</div>
 
 <!-- Red banner @ top of page -->
-  <section class="bannerimage">
     <div class="bannerunderheader">
       <h3>Full Stack Web Developer</h3>
     </div>
-  </section>
+ 
 
 <!-- All 3 links in page center -->
-  <article class="pagecenter">
+  <article>
 <!-- Link 1 -->
-  <section id="aboutme"> 
-      <img src="./IMG_5578(1).jpg" alt="Damon meditating" class="linkphoto">
+  <section id="aboutmesidebar"> 
+      <img src="./IMG_5578(1).jpg" alt="Damon meditating" class="linkimages">
       <h2>Who's Damon?</h2>
       <p>Full Stack Web Developer (Not for hire)</p>
   </section>
 
   <!-- Link 2 -->
-  <section id="mywork"> 
-    <img src="./HoriSEOn.jpg" alt="screenshot of project" class="linkphoto">
-    <h2>Projects</h2>
+  <section id="myworksidebar"> 
+    <img src="./HoriSEOn.jpg" alt="screenshot of project" class="linkimages">
+    <h2><a href="https://github.com/DamonAndrews/BILLionaires---Invoicing-App" target="_blank">BILLionaires-Online Invoicing App</a></h2>
     <p>A virtual "taste-testing" of products, with work added regularly</p>
   </section>
 
   <!-- Link 3 -->
-  <section id="contact"> 
-    <img src="./Contact.jpg" alt="contact" class="linkphoto">
+  <section id="contactsidebar"> 
+    <img src="./Contact.jpg" alt="contact" class="linkimages">
     <h2>Let's Connect</h2>
     <p>Lorem ipsum Damon Andrews</p>
   </section>
@@ -74,7 +72,12 @@
       <li>DamonAndrews.com</li>
   </section>
   
+  <!-- <script>
+    window.alert("Thank you for visiting my page!");
+    </script> -->
 
+
+<script src ="./script.js"></script>
 <!-- CLOSE body -->
 </body>
 

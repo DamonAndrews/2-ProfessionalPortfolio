@@ -2,8 +2,7 @@ body{
     background-image: url(mma.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    font-family: 'Arial Narrow', Arial, sans-serif
-   
+    font-family: 'Arial Narrow', Arial, sans-serif ;
 }
 
 header{
@@ -12,71 +11,85 @@ header{
     justify-content:space-between; 
     
 }
-
-.links li {
-    display:inline-block;
-    margin-left: 15px; 
-  }
-
-.links a:hover {
-    font-weight: bolder;
-    color:aqua;  
-}
-
-.links a:active {
-    font-weight: bolder;
-    color: red
-}
-
-
-header h1 {
-    display:inline-block;
-    /* float: left; */
-    color:rgb(78, 137, 177);
-}
-
-
-.bannerimage {
-    background-color:rgb(241, 70, 70);
-    width:100%;
-    text-align: center;
-}
-
-.page-center {
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-h2{
-    color: rgb(78, 137, 177);
-}
-
-
-.linkphoto {
-    height: 80px;
-    width: 80px;
-    object-fit: cover;
-    border-radius:25%;
-}
-
-.linkphoto1 {
+/* Pyramid picture */
+.pyramidpic {
     height: 65px;
     width: 65px;
     object-fit:contain;
     border-radius:25%;
 }
 
+/* Damon Lee Andrews */
+header h1 {
+    display:inline-block;
+    color: #0D6EDF;
+    text-decoration: underline;
+}
+
+/* Links at Rest */
+#aboutmetop    {
+    color: #0D6EDF;
+    font-weight: bold;
+}
+#myworktop    {
+    color: #0D6EDF;
+    font-weight: bold;
+}
+#contacttop    {
+    color: #0D6EDF;
+    font-weight: bold;
+}
+
+/* Link behavior when hovered on */
+.links a:hover {
+    font-weight: bolder;
+    color:rgb(78, 137, 177);  
+}
+
+/* Links behavior when mouse clicks, before mouse click is released */
+.links a:active {
+    font-weight: bolder;
+    color: rgb(241, 70, 70);
+}
+
+/* Full Stack Web Developer */
+.bannerunderheader {
+    background-color:rgb(241, 70, 70);
+    width:85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Links on left side of page */
+#aboutmesidebar    {
+    color: #0D6EDF;
+    font-weight: bold;
+}
+#myworksidebar    {
+    color: #0D6EDF;
+    font-weight: bold;
+}
+#contactsidebar    {
+    color: #0D6EDF;
+    font-weight: bold;
+}
+
+/* Images for links on left side of page */
+.linkimages {
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+    border-radius:25%;
+}
+
+/* Link description text */
 p{
     font-style: italic;
 }
 
-a{
-    color:rgb(241, 70, 70);
-    font-weight: bold;
-}
-
+/* 
+Contact info at bottom of page */
 .pagebottom {
     display:flex;
     align-items:flex-end;
