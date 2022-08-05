@@ -6,9 +6,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <title>Full Stacks on Stacks on Stacks</title>
+  <title>Full Stack Cornerman</title>
 </head>
 
 <!-- OPEN body -->
@@ -19,17 +19,17 @@
 <div class="pagetop">
 <header>
 
-        <img src="./Pyramid.jpg" alt="Pyramid" class="pyramidpic">
+        <img src="./IMAGES/Pyramid.jpg" alt="Pyramid" class="pyramidpic">
+        <h1>Damon Andrews</h1>
+        <img src="./IMAGES/Pyramid.jpg" alt="Pyramid" class="pyramidpic">
     
-        <h1>Damon Lee Andrews</h1>
-    
-      <nav>
+      <!-- <nav>
         <ul class="links">
           <li id="aboutmetop"><a href="#aboutme">Who's Damon?</a></li>
           <li id="myworktop"><a href= "#mywork">Projects</a></li>
           <li id="contacttop"><a href= "#contact">Let's Connect</a></li>
         </ul>
-      </nav>
+      </nav> -->
 
 </header>
 </div>
@@ -38,47 +38,236 @@
     <div class="bannerunderheader">
       <h3>Full Stack Web Developer</h3>
     </div>
- 
-
-<!-- All 3 links in page center -->
+    <div class="bluebelt">
+      <h3 class="whitetext"> <div id="backHome">
+        <button class="btn btn-primary" type="submit">Back Home</button>
+      </div></h3>
+    </div>
+    <!-- <div id="backHome">
+    <button class="btn btn-primary" type="submit">Back Home</button>
+  </div> -->
+    <br>
+  <br>
+            <!-- All 3 links on left side -->
   <article>
 <!-- Link 1 -->
-  <section id="aboutmesidebar"> 
-      <img src="./IMG_5578(1).jpg" alt="Damon meditating" class="linkimages">
-      <h2>Who's Damon?</h2>
-      <p>Full Stack Web Developer (Not for hire)</p>
+  
+<section> 
+  
+    <div id="linkHide1">
+      <img src="./IMAGES/meditation.jpg" alt="Damon meditating" class="linkimages">
+      <h2 id="aboutMe"><a class="link">About</a></h2>
+      <p>Full Stack Web Developer</p>
+    </div>
   </section>
 
   <!-- Link 2 -->
-  <section id="myworksidebar"> 
-    <img src="./HoriSEOn.jpg" alt="screenshot of project" class="linkimages">
-    <h2><a href="https://github.com/DamonAndrews/BILLionaires---Invoicing-App" target="_blank">BILLionaires-Online Invoicing App</a></h2>
-    <p>A virtual "taste-testing" of products, with work added regularly</p>
+  <section> 
+    <div id="linkHide2">
+    <img src="./IMAGES/HoriSEOn.jpg" alt="screenshot of project" class="linkimages">
+    <h2 id="portfolio"><a class="link">Portfolio</a></h2>
+    <p>Work & Projects added regularly</p>
+  </div>
   </section>
 
   <!-- Link 3 -->
-  <section id="contactsidebar"> 
-    <img src="./Contact.jpg" alt="contact" class="linkimages">
-    <h2>Let's Connect</h2>
-    <p>Lorem ipsum Damon Andrews</p>
+  <section> 
+    <div id="linkHide3">
+    <img src="./IMAGES/Contact.jpg" alt="contact" class="linkimages">
+    <div id="contactLinks">
+    <h2 id="contactsidebar"><a href="" class="link" >Contact</a> </h2></div>
+    <p>See below for contact info</p>
+  </div>
   </section>
-  </article>
 
-<!-- Contact info @ page bottom -->
-  
+<!-- HIDDEN ABOUT ME LINK -->
+<div id="hiddenAboutMe1" class="hide">
+<div class="card mb-3 bg-transparent" style="max-width: 540px;">
+<div class="row g-0">
+
+<!-- About Me Image -->
+    <div class="row-md-4">
+      <img src="Headshot.jpg" class="img-fluid rounded-start" alt="headshot">
+    </div>
+<!-- About Me Text -->
+  <div class="col-md-8">
+  <div class="card-body">
+        <h5 class="card-title">About Me</h5>
+        <p class="card-text">Thank you so much for taking the time to visit my personal page and portfolio.</p><p>I am a new transplant to the East Coast and have begun my voyage into the wonderful world of Web Development. I have a Full Stack Flex Certificate from the University of Arizona, as well as various other front and back-end certificates.</p><p>With a background in Finance, I am eager for the opportunity showcase my talents and continue to improve in this field.</p><p>I am blessed to have a loving wife, children, dogs, cats, parents, the best friends that anyone could ask for and large extended family. I am deeply passionate about and a practitioner of Mixed Martial Arts.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+  <!-- HIDDEN PORTFOLIO LINKS -->
+  <div id="pleaseWork">
+    <div id="hiddenPortfolio5" class="hide">
+      <div class="card text-center bg-transparent" id="textcolor">
+        <div class="card-header" id="whitetext"><b>FEATURED PROJECT</b></div>
+        <div class="card-body">
+          <h5 class="card-title" id="whitetext">BallHog App</h5>
+          <p class="card-text">API routes, CSS Framework</p>
+          <div>
+            <img src="./IMAGES/BallHog_Screenshot.jpg" alt="Project 1">
+            <br>
+          <a href="https://github.com/DamonAndrews/BILLionaires---Invoicing-App" class="btn btn-primary" target="_blank">View GitHub Repository</a>
+          <a href="https://damonandrews.github.io/AwesomeGroupProject1/" target="_blank" class="btn btn-primary">Launch App</a>
+        </div>
+      <div class="card-footer" id="whitetext">Added 1 Month Ago</div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div id="hiddenPortfolio4" class="hide">
+              <div class="card text-center bg-transparent" id="textcolor">
+                <div class="card-header" id="whitetext">
+                  <b>Project 11</b>
+                </div>
+                <div class="card-body" id="whitetext">
+                  <h5 class="card-title">Note Taker App</h5>
+                  <p class="card-text">Express.JS, API routes, JSON, Heroku Deployment</p>
+                  <div>
+                    <img src="./IMAGES/Note_Taker_Screenshot.jpg" alt="Project 1">
+                    <br>
+                  <a href="https://github.com/DamonAndrews/Module11Challenge" class="btn btn-primary">View GitHub Repository</a>
+              
+                </div>
+                <div class="card-footer" id="whitetext">
+                  2 Months Ago
+                </div>
+              </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="pleaseWork">
+      <div id="hiddenPortfolio3" class="hide">
+        <div class="card text-center bg-transparent" id="textcolor">
+          <div class="card-header" id="whitetext"><b>PROJECT 4</b></div>
+          <div class="card-body">
+            <h5 class="card-title" id="whitetext">TIMED CODING QUIZ</h5>
+            <p class="card-text">JavaScript & Web APIs</p>
+            <div>
+              <img src="./IMAGES/Coding_Quiz_Screenshot.jpg" alt="Project 1">
+              <br>
+            <a href="https://github.com/DamonAndrews/Project-4" target="_blank" class="btn btn-primary">View GitHub Repository</a>
+            <a href="https://damonandrews.github.io/Project-4/" target="_blank" class="btn btn-primary">Launch App</a>
+          </div>
+        <div class="card-footer" id="whitetext">Added 1 Month Ago</div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div id="pleaseWork">
+      <div id="hiddenPortfolio2" class="hide">
+        <div class="card text-center bg-transparent" id="textcolor">
+          <div class="card-header" id="whitetext"><b>PROJECT 3</b></div>
+          <div class="card-body">
+            <h5 class="card-title" id="whitetext">Password Generator</h5>
+            <p class="card-text">JavaScript</p>
+            <div>
+              <img src="./IMAGES/Password_Generator_Screenshot.jpg" alt="Project 3">
+              <br>
+            <a href="https://github.com/DamonAndrews/Project3" class="btn btn-primary">View GitHub Repository</a>
+            <a href="https://damonandrews.github.io/Project3/" target="_blank" class="btn btn-primary">Launch App</a>
+          </div>
+        <div class="card-footer" id="whitetext">Added 1 Month Ago</div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div id="hiddenPortfolio1" class="hide">
+              <div class="card text-center bg-transparent" id="textcolor">
+                <div class="card-header" id="whitetext">
+                  <b>SEO Project</b>
+                </div>
+                <div class="card-body" id="whitetext">
+                  <h5 class="card-title">SEO for HoriSEOn Marketing</h5>
+                  <p class="card-text">HTML, CSS & Git</p>
+                  <div>
+                  <img src="./IMAGES/Porject_1_Snapshot.jpg" alt="Project 1" target="_blank">
+                  <br>
+                  <a href="https://github.com/DamonAndrews/Project-1" class="btn btn-primary" target="_blank">View GitHub Repository</a>
+                </div>
+              </div>
+                <div class="card-footer" id="whitetext">
+                  2 Months Ago
+                </div>
+              </div>
+    </div>
+  </div>
+  </section>
+</article>
+
+                  <!-- Contact info @ page bottom -->
+ 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="purplebelt">
+    <h3 class="whitetext">Contact for additional work</h3>
+  </div>
+  <div class="brownbelt">
+    <h3>Full Stack Web Developer</h3>
+  </div>
+  <div class="blackbelt">
+    <h3 class="whitetext">FREE help on any MMA related work</h3>
+  </div>
+
+
+<!-- CONTACT LINKS -->
+<div>
   <ul class="pagebottom">
-      <li>Ph. 480-867-0861</li>
-      <li>Email: MasonLovesUFC@gmail.com</li>
-      <li>DamonAndrews.com</li>
-  </section>
-  
-  <!-- <script>
-    window.alert("Thank you for visiting my page!");
-    </script> -->
 
+      <li><a href="mailto:damonlovesufc@gmail.com" class="pagebottom">Email Me</a></li>
 
-<script src ="./script.js"></script>
-<!-- CLOSE body -->
+      <li><a href="https://github.com/DamonAndrews" target="_blank" class="pagebottom">GitHub</a></li>
+
+      <li><a href="https:/www.linkedin.com/in/damon-andrews1/"
+         target="_blank" class="pagebottom">LinkedIn<a>
+      </li>
+
+      <li><a href="https:/www.damonandrews.com"
+        target="_blank" class="pagebottom">DamonAndrews.com</a></li>
+  </ul>
+</div>
+
+<script src ="./portfolio.js"></script>
+
 </body>
 
 </html>

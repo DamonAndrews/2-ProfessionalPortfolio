@@ -1,0 +1,171 @@
+body{
+    /* background-image: url(IMAGES/mma.jpg); */
+    /* background-image: url(IMAGES/shutterstock_218951626.jpg); */
+    background-image: url(IMAGES/blackwhitekicksilhouettte.jpg);
+    /* background-image: url(IMAGES/coloroctagon.jpg); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Nobile', Arial, sans-serif ;
+}
+
+/* header{
+    display:flex;
+    background-size:100%;
+    justify-content:space-between; 
+    
+} */
+
+.pagetop{
+    display:flex;
+    justify-content: center;
+}
+/* Pyramid picture */
+.pyramidpic {
+    height: 65px;
+    width: 65px;
+    object-fit:contain;
+    border-radius:100%;
+}
+
+/* Damon Lee Andrews */
+header h1 {
+    display:inline-block;
+    color: #0D6EFD;;
+    font-size:500%;
+}
+
+h2{
+    color:red;
+}
+/* Links at Rest */
+#aboutmetop    {
+    color: red;
+    font-weight: bold;
+}
+#myworktop    {
+    color: red;
+    font-weight: bold;
+}
+#contacttop    {
+    color: red;
+    font-weight: bold;
+}
+
+/* Link behavior when hovered on */
+.links a:hover {
+    font-weight: bolder;
+    color:rgb(78, 137, 177);  
+}
+
+/* Links behavior when mouse clicks, before mouse click is released */
+
+.links a:active {
+    font-weight: bolder;
+    color: rgb(241, 70, 70);
+}
+
+/* Full Stack Web Developer */
+.bannerunderheader {
+    background-color:whitesmoke;
+    width:85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bluebelt {
+    background-color:blue;
+    width:85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.purplebelt {
+    background-color:rgb(128,0,128);
+    width:85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brownbelt {
+    background-color:rgb(160,82,45);
+    width:85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blackbelt {
+    background-color:black;
+    width:85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Links on left side of page */
+.link{
+    color: #0D6EFD;
+    font-weight: bolder;
+}
+#aboutmesidebar    {
+    color: red;
+    font-weight: bold;
+}
+#myworksidebar    {
+    color: red;
+    font-weight: bold;
+}
+#contactsidebar    {
+    color: red;
+    font-weight: bold;
+}
+
+/* Images for links on left side of page */
+.linkimages {
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+    border-radius:25%;
+}
+
+/* Link description text */
+p{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* 
+Contact info at bottom of page */
+.pagebottom {
+    display:flex;
+    align-items:flex-end;
+    height: 100px;
+    color: greenyellow;
+    font-weight: bolder;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 261px;
+}
+.whitetext{
+    color:whitesmoke;
+}
+
+.hide {
+    display: none;
+  }
+
+#backHome {
+    display: flex;
+    justify-content: center;
+}
+#sideLink1 {
+    display: flex;
+    justify-content: center;
+}
+#whitetext{
+    color:whitesmoke;
+}
+
+/* #pleaseWork{
+    background-image: url(IMAGES/blackwhitekicksilhouettte.jpg);
+} */
